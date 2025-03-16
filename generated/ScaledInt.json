@@ -1,0 +1,17 @@
+{
+  "English": {
+    "format": "0x8A00XX5A 0xXXYYZZWW 0x5A00008A\nThe sequence is frame header, data, and frame tail,All require four-byte transmission.\nThe XX in the frame header indicates the subsequent data length (excluding the frame tail).",
+    "example": "UART send: 0x8A00025A 0x01020304 0x00003355 0x5A00008A",
+    "url": ""
+  },
+  "SimplifiedChinese": {
+    "format": "0x8A00XX5A 0xXXYYZZWW 0x5A00008A\n顺序分别为帧头、数据、帧尾，均要求四字节发送，帧头中的XX表示后续的数据长度（不包括帧尾）",
+    "example": "UART发送：0x8A00025A 0x01020304 0x00003355 0x5A00008A",
+    "url": ""
+  },
+  "TraditionalChinese": {
+    "format": "0x8A00XX5A 0xXXYYZZWW 0x5A00008A\n順序分別爲幀頭、數據、幀尾，均要求四字節發送，幀頭中的XX表示後續的數據長度（不包括幀尾）",
+    "example": "UART發送：0x8A00025A 0x01020304 0x00003355 0x5A00008A",
+    "url": ""
+  }
+}
